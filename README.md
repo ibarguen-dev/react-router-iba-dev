@@ -9,12 +9,27 @@ Compatibilidad con múltiples plataformas: Funciona tanto para aplicaciones web 
 
 # Como funciona
 
+
+
 El funcionamiento de este enrutador es muy fácil solo tiene que seguir el siguiente ejemplo.
+
+para crear los links solo debes colocar los siguente:
+
 ```javascript
+
+<Link to="NombreRuta"><Link/>
+```
+
+Cambias lo que esta dentro del NombreRuta por el nombre que tu quieras y en el rutado coloca lo siguente
+```javascript
+
 <Router>
-	<Route path='/ ' Component={HomePages}/>
+	<Route path='/NombreRuta' Component={HomePages}/>
 <Router/>
 ```
+
+Cambias el nombre ruta por el nombre que tu quieras y el router funcionra con toda la normalidad 
+
 Si quieres que tenga un 404 personalizados debes hacer los siguiente:
 
 ```javascript
@@ -23,9 +38,18 @@ Si quieres que tenga un 404 personalizados debes hacer los siguiente:
       </Router>
 ```
 
+cambias el 404Pages por el template que allas creado
+
+
 # Creditos 
   midulive
   [Síguelo en su canal de YouTube](https://www.youtube.com/midulive "Síguelo en su canal de YouTube")
+
+
+# Link
+ link: https://github.com/ibarguen-dev/react-router-iba-dev
+
+  puedes apoyarme dando una estrella al proyecto te lo agradeceria 
 
 # Bages
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
